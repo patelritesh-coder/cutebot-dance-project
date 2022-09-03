@@ -1,0 +1,16 @@
+basic.show_icon(IconNames.HEART)
+
+def on_forever():
+    cuteBot.forward()
+    basic.pause(200)
+    cuteBot.motors(100, 40)
+    basic.pause(1000)
+    cuteBot.forward()
+    basic.pause(200)
+    cuteBot.forward()
+    basic.pause(200)
+    cuteBot.motors(40, 100)
+    basic.pause(1000)
+    cuteBot.forward()
+    basic.pause(200)
+basic.forever(on_forever)
